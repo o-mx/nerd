@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-doc">
+     <nav id="navbar">
+        <header>HTML DOCUMENTATION</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Structure_of_an_HTML_Document">Structure of an HTML Document</a></li>
+            <li><a class="nav-link" href="#Basic_Elements_of_HTML">Basic Elements of HTML</a></li>
+            <li><a class="nav-link" href="#Attributes_in_HTML">Attributes in HTML</a></li>
+            <li><a class="nav-link" href="#Multimedia_in_HTML">Multimedia in HTML</a></li>
+            <LI><a class="nav-link" href="#Best_practices">Best practices</a></LI>
+            <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+            <li><a class="nav-link" href="#Refference">Refference</a></li>
+        </ul>
+        </nav>
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <div>
+                <p>HTML (HyperText Markup Language) is the foundational language used to create web pages and web applications. It structures and organizes content on the web by defining elements such as headings, paragraphs, images, links, and multimedia. Invented by Tim Berners-Lee in 1991, HTML has grown into the backbone of the internet, allowing developers to create everything from simple websites to complex, interactive applications.</p>
+           <p>To better understand HTML, think of it as the "skeleton" of a webpage. It works hand-in-hand with CSS (Cascading Style Sheets) for design and JavaScript for interactivity, forming the holy trinity of web development.</p>
+           <p>In order to learn HTML it is essential to have to basic skills like:
+            <ul>
+                <li><I>Basic computer literacy:</I> Understanding how to use a computer, navigate file systems and some knowledge on applications like Ms word, can improve your understanding and the time used to learn.</li>
+           <li><I>Problem-solving skills:</I> The ability to trouble shoot issues with code and use logical thinking can help to figure out solutions and improve creativity.</li>
+            <li><I>Time management and self learning:</I> Learning HTML involves a lot of self-paced study and practice, Managing time effectively to balance learning with practical projects or assignments.</li>
+            <li><i>Attention to Detail:</i>
+HTML requires precise syntax (e.g., matching opening and closing tags).
+A small mistake in one tag can cause the entire page to not display correctly, so attention to detail is crucial.</li>
+<li><i>Research Skills:</i>
+Knowing how to use online resources effectively (e.g., Stack Overflow, MDN Web Docs) when you get stuck or need to learn more about certain HTML tags or practices.
+Using search engines to find tutorials, examples, and troubleshooting guides.</li>
+        </ul>
+           </p> 
+        </div>
+    </section>
+    <section class="main-section" id="Structure_of_an_HTML_Document">
+        <header>Structure of an HTML Document</header>
+        <p>Every HTML document adheres to a specific structure, starting with the declaration, which tells the browser to interpret the document as HTML5. The "html" element wraps the entire content, divided into the "head" (for metadata) and "body" (for visible content).
+          <hr>Example:</hr>
+        </p>
+       <pre style="color: blue;"> <code>
+            &lt;html&gt;
+              &lt;head&gt;
+                &lt;title&gt;Welcome to HTML&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+                &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                &lt;p&gt;This is a basic HTML structure.&lt;/p&gt;
+              &lt;/body&gt;
+            &lt;/html&gt;
+            </code></pre>
+    </section>
+    <section class="main-section" id="Basic_Elements_of_HTML">
+<header>Basic Elements of HTML</header>
+<p>HTML provides core elements to structure and format content. These include headings (&lt;h1&gt; to &lt;h6&gt;), paragraphs (&lt;p&gt;), links (&lt;a&gt;), and lists (&lt;ul&gt; and &lt;ol&gt;). These elements ensure content is organized and user-friendly.
+  <hr class="line">Example:<hr>
+</p>
+<pre style="color: blue;"> <code>&lt;h1&gt;Main Heading&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Item 1&lt;/li&gt;
+      &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;/ul&gt;</code></pre>
+</section>
+<section class="main-section" id="Attributes_in_HTML">
+    <header>Attributes in HTML</header>
+<p>Attributes in HTML provide additional information about elements and modify their behavior or appearance. Each attribute is placed within the opening tag of an HTML element and is composed of a name and a value, typically written in a key-value pair format. These attributes are essential for defining specific properties such as links, image sources, or styles, enhancing the functionality and customization of web pages.</p>
+<p>One of the most commonly used attributes is the href attribute in anchor (&lt;a&gt;) tags, which specifies the destination of a hyperlink. Other popular attributes include src in image (&lt;img&gt;) tags, which defines the image source, and alt, which provides an alternative text for accessibility. Similarly, the class and id attributes allow developers to target elements with CSS or JavaScript, making it easier to apply styles or add interactivity to specific elements.
+  <hr class="line">Example:<hr>
+</p>
+<pre style="color: blue;"> <code>&lt;img src="image.jpg" alt="An example image" width="300"&gt;
+    &lt;a href="https://example.com" target="_blank"&gt;Open Example&lt;/a&gt;
+    </code></pre>
+</section>
+<section class="main-section" id="Multimedia_in_HTML">
+    <header>Multimedia in HTML</header>
+    <p>HTML supports embedding multimedia such as images, videos, and audio. The &lt;video&gt; and &lt;audio&gt; elements provide built-in playback functionality. <hr>Example:</hr></p>
+    <pre style="color: blue;"> <code>&lt;video controls&gt;
+        &lt;source src="video.mp4" type="video/mp4"&gt;
+        Your browser does not support the video tag.
+      &lt;/video&gt;
+      &lt;audio controls&gt;
+        &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+        Your browser does not support the audio tag.
+      &lt;/audio&gt;
+</code></pre>      
+    </section>
+    <section class="main-section" id="Best_practices">
+        <header>Best practices</header>
+        <p>Writing clean and semantic HTML improves maintainability and accessibility. Proper indentation, meaningful tags, and comments help developers and users alike.</p>
+   <p>Consistent indentation and spacing make your code more readable and easier to troubleshoot. It’s also important to avoid inline styles and scripts as much as possible, favoring external CSS and JavaScript files instead. This keeps the HTML clean and promotes separation of concerns, which improves maintainability and scalability. Always validate your code with a tool like the W3C Validator to ensure there are no syntax errors and that your HTML is compliant with current standards.</p>
+   <p>Follow guidelines that ensure your website is usable for everyone, including those with disabilities. This includes using alt attributes for images, proper heading hierarchy for navigation, and ensuring that interactive elements like forms and buttons are accessible via keyboard and screen readers. By incorporating these practices from the beginning, you’ll be able to create well-structured, functional, and inclusive websites.
+     <hr>Example:</hr>
+     <pre style="color: blue;"> <code>&lt;!-- This is a comment --&gt;
+&lt;section&gt;
+  &lt;h2&gt;About Us&lt;/h2&gt;
+  &lt;p&gt;We provide quality content.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+   </p>
+</section>
+<section class="main-section" id="Conclusion">
+    <header>conclusion
+    </header>
+    <p>In conclusion, learning HTML is a bit like learning the language of the web—it might seem like a jumble of strange symbols at first, but once you get the hang of it, it’s like speaking fluently in code. Just remember, HTML is the backbone of any website, and with the right practices, you'll be building websites that are not only functional but also clean, accessible, and maybe even a little bit charming. So go ahead, embrace your inner web wizard—after all, someone’s got to create all those beautiful pages we click on without a second thought. And who knows, your next website could be the one that breaks the internet… or at least gets a few likes. 😉 Happy coding!</p>
+</section>
+<section class="main-section" id="Refference">
+  <header>Refference</header>
+  <p>If you wish to explore the HTML world, learn the language at <a href="FreeCodeCamp.org" target=_blank>FreeCodeCamp</a></p>
+</section>
+</main>
+</body>
+</html>

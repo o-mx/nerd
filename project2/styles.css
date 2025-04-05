@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    }
+  
+  main{border-radius: 7px;background-color: #f1e3e3b7;
+  margin: 0 5vh;
+  padding: 0 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+  #title{text-align: center;
+  margin-top: 19px}
+  
+  p{text-align: center;
+  font-size: 2vh;
+  margin-top: -10px;
+  margin-bottom: 18px
+  }
+   
+  img {display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  padding: 8px;
+  width: 60%;
+  padding-top: 1.5vw
+  }
+  
+  #img-div{
+    background: white;
+    margin: auto;
+    height: auto;
+    width:94vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+  #img-caption{
+    color: #555;
+    text-align: center;
+    letter-spacing: 0.03em
+   
+  }
+  
+  h3{text-align: center}
+  
+  ul{max-width: 580px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    }
+  
+  span{font-weight: bold}
+  
+  li{line-height: 27px;
+  margin-bottom: 4px;
+  
+  }
+  
+  q{ margin: 5px;
+  text-align: center;
+      padding-left: 20px;
+      border-left: 3px solid #ccc;}
+  a{display: block}
+  #journal-link:hover{color: rgb(187, 32, 226);}
+  
+  section{margin-top: 1px;
+  padding: 20px}
+  
+  @media (max-width: 768px){ 
+    body{max-width: 768px; 
+    margin: 0;}
+    #img-div {
+        width: 100%;
+    }
+    ul {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    img {
+        width: 80%;
+    }
+}
+  
