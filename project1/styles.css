@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #342946;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  form {
+    background-color: #7a5c91;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(158, 124, 124, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px; margin-top: -1px; color: rgb(48, 46, 46)
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 7px; color: rgb(51, 15, 15);
+  }
+  
+  fieldset {
+    border: 1px solid #3b2121;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #522727be;
+    padding: 0 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 2px; margin-left: 1px;
+    font-size: 14px;
+    color: rgb(66, 27, 27);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 4px;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    border: 1px solid rgb(158, 117, 117);
+    background-color: #eff1e6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px; margin-top: -1px
+  }
+  
+  input[type="submit"]:hover {background-color: #e6b84c; }
+   
+  

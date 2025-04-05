@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title >Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+<body>
+<form id="survey-form" type="submit" action="/submit">
+<h1 id="title">Survey Form</h1>
+<p id="description">Filling this survey form will be greatly appreciated:</p>
+<fieldset>
+<label id="name-label">Name:<input id="name" type="text" placeholder="enter your name:" required/></label>
+<label id="email-label">Email:<input id="email" type="email" placeholder="me@gmail.com" required></label>
+<label id="number-label">Age:<input id="number" type="number" placeholder="enter your age:" min="14" max="60"></label>
+</fieldset>
+<fieldset>
+<legend>Apart from coding what other hobies do you do?</legend>
+ <label id="hobbies-label">
+    <input type="checkbox" name="hobbies" value="reading"> Reading
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="hobbies" value="traveling"> Traveling
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="hobbies" value="sports"> Sports
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="hobbies" value="music"> Music
+  </label><br>
+  <legend>How would you describe the difficulty of the project?</legend>
+  <label id="difficulty-label"><input type="radio" name="difficulty" value="easy">Easy</label>
+  <label><input type="radio" name="difficulty" value="moderate">Moderate</label>
+  <label><input type="radio" name="difficulty" value="hard">Hard
+  </fieldset>
+ <fieldset>
+    <legend>What device did you use to do this project?</legend>
+    <select id="dropdown" name="device">
+      <option value="">(Select one)</option>
+      <option value="PC">PC</option>
+      <option value="tablet">Tablet</option>
+      <option value="phone">Phone</option>
+    </select>
+    <legend>What led you to try this project?</legend>
+    <textarea id="motivation" name="motivation"  placeholder="I want to improve my coding skills..." rows="3" cols="30"></textarea>
+  </fieldset>
+  <input id="submit" type="submit" value="submit"/>
+</form>
+</body>
+</html>
